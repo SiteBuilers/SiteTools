@@ -6,8 +6,8 @@ jobs:
     - name: repo-sync
       uses: wei/git-sync@v2
       with:
-        source_repo: "https://github.com/LianYiMing/SiteBuilding"
+        source_repo: "https://www.github.com/LianYiMing/SiteBuilding"
         source_branch: "master"
-        destination_repo: "https://github.com/SiteBuilers/SiteTools"
+        destination_repo: "https://www.github.com/SiteBuilers/SiteTools"
         destination_branch: "main"
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}	
