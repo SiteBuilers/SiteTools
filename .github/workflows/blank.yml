@@ -10,5 +10,4 @@ jobs:
         source_branch: "master"
         destination_repo: "https://github.com/SiteBuilers/SiteTools"
         destination_branch: "main"
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-		
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}	
